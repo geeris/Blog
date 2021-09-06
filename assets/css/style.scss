@@ -1,0 +1,621 @@
+$font: 'Bubblegum Sans';
+$title:'Courgette';
+$font1:'Love Ya Like A Sister';
+$sponge:'Freckle Face';
+$nesto:'Flavors';
+$doodo:'Miltonian Tattoo';
+
+// $color:#FED45B;
+$black:#252525;
+$light:#B1CBDC;
+$color:#004B84;
+$white:#fff;
+$error:#b71c1c;
+// $color:#014073;
+$border:#c0c0c0;
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body, .btn{
+    font-family:$font !important;
+}
+body{
+    color:$black !important;
+}
+.title{
+    font-family:$sponge;
+}
+.underline{
+    text-decoration: underline;
+}
+.addColor{
+    color:$white;
+}
+.background{
+    background-color:$color;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.row{
+    margin-bottom:0px;
+}
+
+/************************************ O V E R R I D E ***************************************/
+/********************************************************************************************/
+
+// input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+//     border : 1px solid $white;
+//     border-radius: 10px;
+//     color: $white;
+//     padding-left:10px;
+//     font-family: $font;
+// }
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color : $black;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom : 1px solid $black;
+    box-shadow: none;
+}
+.input-field .prefix.active{
+    color:$color;
+}
+.input-field>label {
+    color : $black;
+    padding-left:10px;
+}
+// .btn, .btn:hover, .btn:focus{
+//     background-color : $white;
+//     color : $darkDown;
+//     width:100%;
+//     border-radius: 10px;
+// }
+// .waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"] {
+//     font-family: $font;
+//     letter-spacing: 1px;
+// }
+
+/************************************ M E N U ***************************************/
+/************************************************************************************/
+.nav-wrapper ul{
+    height:64px;
+    width:fit-content;
+    position: absolute;
+    right:0;
+    top:0;
+}
+nav .brand-logo {
+    position: relative;
+}
+h1{
+    font-size:30px;
+    margin:0px;
+    line-height: unset;
+    width:fit-content !important;
+    color:$white;
+}
+.link span, .link i{
+    color:$white;
+}
+nav ul a{
+    color:$black;
+}
+nav .brand-logo{
+    position: relative;
+}
+nav{
+    -webkit-box-shadow:none !important;
+}
+.nav-wrapper ul{
+    height:64px;
+    width:fit-content;
+    //position: absolute;
+    // right:0;
+    // top:0;
+}
+.material-icons{
+    margin-right:10px !important;
+}
+.stayHere{
+    position:sticky;
+    top:0px;
+    z-index:50;
+}
+[type=text], textarea, select{
+    font-family: $font;
+}
+@media only screen and (max-width: 992px){
+    nav .brand-logo {
+        left:0;
+        display: contents;
+    }
+}
+@media screen and(max-width : 740px)
+{
+    .disappear{
+        display:none;
+    }
+    .link i{
+        width:fit-content !important;
+        margin:0px !important;
+    }
+}
+@media screen and(max-width : 475px)
+{
+    .nav-wrapper{
+        display: flex !important;
+        flex-direction: column !important;
+
+        & h1, ul{
+            margin:0 auto !important;
+        }
+        & ul{
+            height:fit-content;
+            width:100%;
+            display:flex;
+            position: relative;
+            margin:0 auto !important;
+            justify-content: center !important;
+            background-color:$color;
+        & li{
+            height:fit-content;
+            }
+        }
+    }
+    .becomeFixed{ 
+        position:fixed !important;
+        position: absolute !important;
+        top:0px !important;
+        z-index:2000 !important;
+      } 
+    nav{
+        height:fit-content;
+        position: relative !important;
+    }
+}
+.btn, .btn:hover{
+    background-color:$black !important;
+}
+
+
+/************************************ M O D A L S ***************************************/
+/****************************************************************************************/
+.modal{
+    max-height:80%;
+    max-width:30%;
+    padding:20px;
+    //overflow:hidden;
+}
+.prefix{
+    color:$color;
+}
+input[type="submit"]{
+//   width:100%;
+  margin-top:50px;
+}
+.modal-close{
+  position:absolute;
+  top:10px;
+  right:10px;
+  padding:0;
+  margin:0px 5px 0px 0px;
+  font-size:20px;
+}
+.formFont{
+    font-size:30px;
+}
+.btnSignIn{
+    margin-top:30px !important;
+}
+.errorP{
+    color:$error;
+}
+@media screen and(max-width : 1295px)
+{
+    .modal{
+    max-height:80%;
+    max-width:35%;
+    padding:20px;
+    //overflow:hidden;
+}
+}
+@media screen and(max-width : 931px)
+{
+    .modal{
+    max-width:50%;
+    }
+}
+@media screen and(max-width : 751px)
+{
+    .modal{
+    max-width:60%;
+    }
+}
+@media screen and(max-width : 600px)
+{
+    .modal{
+    max-width:70%;
+    }
+}
+@media screen and(max-width : 475px)
+{
+    .modal{
+    max-width:80%;
+    }
+}
+
+/************************************ H E A D E R ***************************************/
+/****************************************************************************************/
+.bgImage{
+    background:
+    {     
+      image: url('../images/header1.jpg');
+      size:50% 50%;
+      position:right;
+      repeat:no-repeat;
+    } 
+    height:600px;
+    width:600px;
+}
+.headerImage{
+    width:100%;
+    height:100%;
+}
+
+.welcome{
+    color:$color;
+    //text-shadow:1px 1px 10px $color;
+}
+.welcomep{
+    font-size:25px;
+}
+@media only screen and (max-width: 991px){
+    .change991{
+        margin-top:30px;
+        text-align:center !important;
+        & h3{
+            font-size:33px;
+        }
+        .welcomep{
+            font-size:20px !important;
+        }
+    }
+}
+.toast{
+    background-color:$black !important;
+}
+
+/************************************ H O M E  ***************************************/
+/****************************************************************************************/
+
+/* S E A R C H */
+.searchbg{
+    background-color:$color !important;
+}
+
+/* B L O G  */
+.userShortcut{
+    width:100%;
+    height:fit-content;
+    padding:10px;
+    //background-color: $light;
+    & img{
+        height:30px;
+        width:30px;
+        border-radius:50%;
+    }
+    & a{
+        margin-left:10px;
+        color:$black;
+        text-decoration: underline;
+    }
+    border-bottom:1px solid $border;
+}
+.postBlog, .blog{
+    //margin:0 auto;
+    //padding:20px;
+    border:1px solid $border;
+    border-radius:10px;
+}
+.blog{
+    position: relative;
+}
+.editicons{
+    font-size:20px;
+    margin-right:0px !important;
+}
+#edit, #delete{
+    width:100%;
+    height:100%;
+}
+.moreOptionsList{
+    position: absolute;
+    right:0;
+    top:0;
+
+    background-color:$white;
+    border:1px solid $border;
+    border-radius: 0px 10px;
+
+    & li{
+        padding:10px;
+        &:first-child{
+            border-bottom:1px solid $border;
+        }
+       
+    }
+}
+.linkA{
+            color:$black !important;
+}
+.postBlog{
+    width:80%;
+    padding:20px;
+    margin-left:auto !important;
+}
+.disappearOptions{
+    display:none;
+}
+.blog{
+    width:47%;
+    margin-left:0px;
+    //padding-bottom:10px;
+}
+.blog h2{
+    font-size:25px;
+    margin:0px;
+    padding:10px 15px 10px 15px;
+}
+.content{
+    padding:0px 15px 15px 15px;
+}
+.date{
+    text-align:right;
+    padding:0px 15px;
+}
+.comments{
+    padding:15px;
+    border-top:1px solid $border;
+    & a{
+    color:$black;
+    font-style:italic;
+    }
+}
+.date, .types{
+    font-size:13px;
+    color: rgba($black, 0.5);
+    font-style: italic;
+}
+.types{
+    padding:0px 10px;
+}
+.firstLetter{
+    background-color:$color;
+    color:$white;
+    padding:1px 7px;
+    border-radius:50px;
+}
+.types span{
+   margin-left:5px;
+   width:fit-content;
+    background-color:$white;
+    border-radius:10px;
+    border:1px solid $border;
+    color:$black;
+    padding:5px;
+    margin-bottom:5px !important;
+}
+.contentImage{
+    width:100%;
+}
+.changewidth{
+    width:83.5%;
+    margin-left:auto !important;
+}
+
+.image-upload>input {
+  display: none;
+  width:100% !important;
+}
+.itslabel{
+    width:30%;
+}
+#checkOne{
+    width:100%;
+}
+.smallMessage{
+    width:100%;
+    margin-bottom:10px;
+}
+.addImage, .add{
+    color:$black !important;
+    cursor: pointer;
+    font-size:15px;
+}
+.addImage{
+    font-size:25px;
+}
+
+
+/* S O R T */ /*****************************************************************/
+.dropdown-content li>a, .dropdown-content li>span {
+    color:$black;
+}
+
+.select-dropdown{
+    border:1px solid $border !important;
+    border-radius:10px !important;
+    // display: block !important;
+
+}
+.select-wrapper{
+    width:100% !important;
+    margin:0 auto;
+    margin-left:auto !important;
+
+}
+.first{
+    margin-left:20px !important;
+}
+/* TYPE OF BLOG LEFT  */
+.blogType li{
+    margin:5px 0px;
+    &:first-child{
+        margin-top:0px;
+    }
+}
+.blogType li a{
+    display: block;
+    //background-color:$color;
+    color:$black !important;
+    border-radius:10px;
+    // border:1px solid $border;
+    padding:0px 10px;
+    width:100%;
+    & span{
+        margin-left:5px !important;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .blogType{
+        width:90%;
+        margin:0 auto;
+        flex-wrap: wrap;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        & li{
+            width:30%;
+            &:first-child{
+                margin:5px 0px;
+            }
+        }
+    }
+    .changewidth, .postBlog{
+        margin:0 auto;
+    }
+    .postBlog{
+        margin-top:30px !important;
+    }
+    .blog{
+        width:90%;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .select-wrapper, .search{
+        width:90% !important;
+        margin:0 auto !important;
+    }
+    .blog, .postBlog, .changewidth{
+        width:90%;
+    }
+    .blog{
+        width:100%;
+    }
+    .deleteP{
+        padding:0px;
+    }
+}
+@media only screen and (max-width: 840px){
+    .itslabel{
+        width:48%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .blogType li{
+        width:45%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .itslabel{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 420px){
+    .blogType li{
+        width:100%;
+        margin:5px auto !important;
+    }
+}
+@media only screen and (max-width: 350px){
+    .disappear350{
+        display: none !important;
+    }
+}
+
+/* M O D A L   chooseBlogTagsTitle */
+.chooseBlogTagsTitle{
+    font-size:30px !important;
+}
+#author{
+    margin-right:auto !important;
+}
+[type="checkbox"]:checked+span:not(.lever):before {
+    border-right:2px solid $color;
+    border-bottom:2px solid $color;
+}
+.forChooseBlogTags{
+    color:$black;
+}
+.styleButtonChooseBlogTags{
+    display: block;
+    text-align: center !important;
+    //margin-top:40px !important;
+    background-color:$black;
+    width:80px !important;
+    margin:0 auto !important;
+    &:hover{
+        background-color:$black;
+    }
+}
+
+.ddlChange li a{
+    text-decoration: none;
+    border-radius: 50px 10px 0px 0px !important;
+    margin-left:0px;
+    width:120px !important;
+    font-size:15px;
+}
+
+
+/************************************ F O O T E R ***************************************/
+/****************************************************************************************/
+.copy{
+    font-size:30px;
+}
+.change{
+    font-size:23px !important;
+}
+
+/************************************ A D M I N ***************************************/
+/****************************************************************************************/
+.ths{
+    font-size:18px;
+}
+.managesize{
+    font-size:25px;
+}
+.radios{
+    width:20%;
+    height:fit-content;
+}
+
+@media only screen and (max-width: 991px){
+    .radios{
+        width:32%;
+    }
+}
+@media only screen and (max-width: 690px){
+    .radios{
+        width:50% !important;
+    }
+}
+@media only screen and (max-width: 420px){
+    .radios{
+        width:100% !important;
+    }
+}

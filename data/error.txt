@@ -1,0 +1,83 @@
+1594372123 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktkum' 
+1594372340 	 ::1 	 Sign In details are incorrect 
+1594372395 	 ::1 	 Sign In details are incorrect 
+1594372406 	 ::1 	 Sign In details are incorrect 
+1594372423 	 ::1 	 Sign In details are incorrect 
+1594372454 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372559 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372566 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372567 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372571 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372576 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372577 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372582 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372590 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372638 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372639 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594372656 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'praktium' 
+1594373174 	 ::1 	 Connection problems - SQLSTATE[HY000] [1049] Unknown database 'prakikum' 
+1594397605 	 ::1 	 Sign up user - insert - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'praktikum.usr' doesn't exist 
+1594397731 	 ::1 	 Change active user status - update - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'praktikum.usr' doesn't exist 
+1594422617 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594422669 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594422961 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user '$un'@'localhost' (using password: YES) 
+1594423445 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423461 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423502 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423557 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423559 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423571 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423601 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423614 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423781 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423831 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423877 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423878 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423887 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594423896 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424025 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424046 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424054 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424055 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424056 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424114 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424184 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424193 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424196 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424263 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424263 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424264 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424264 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424281 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424293 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424323 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424334 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424431 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424432 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424433 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424433 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424433 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424728 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424741 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424741 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594424954 	 ::1 	 Connection problems - SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) 
+1594560598 	 ::1 	 Make new blog - insert - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 1' at line 1 
+1594560607 	 ::1 	 Make new blog - insert - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 1' at line 1 
+1594560623 	 ::1 	 Make new blog - insert - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 1' at line 1 
+1594560625 	 ::1 	 Make new blog - insert - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 1' at line 1 
+1594561361 	 ::1 	 Add tags to new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`praktikum`.`blog_tag`, CONSTRAINT `blog_tag_ibfk_2` FOREIGN KEY (`blog_id`) REFERENCES `blog` (`blog_id`) ON DELETE CASCADE ON UPDATE CASCADE) 
+1594561499 	 ::1 	 Add tags to new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`praktikum`.`blog_tag`, CONSTRAINT `blog_tag_ibfk_2` FOREIGN KEY (`blog_id`) REFERENCES `blog` (`blog_id`) ON DELETE CASCADE ON UPDATE CASCADE) 
+1594561534 	 ::1 	 Add tags to new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`praktikum`.`blog_tag`, CONSTRAINT `blog_tag_ibfk_2` FOREIGN KEY (`blog_id`) REFERENCES `blog` (`blog_id`) ON DELETE CASCADE ON UPDATE CASCADE) 
+1594561565 	 ::1 	 Add tags to new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`praktikum`.`blog_tag`, CONSTRAINT `blog_tag_ibfk_2` FOREIGN KEY (`blog_id`) REFERENCES `blog` (`blog_id`) ON DELETE CASCADE ON UPDATE CASCADE) 
+1594561577 	 ::1 	 Add tags to new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`praktikum`.`blog_tag`, CONSTRAINT `blog_tag_ibfk_2` FOREIGN KEY (`blog_id`) REFERENCES `blog` (`blog_id`) ON DELETE CASCADE ON UPDATE CASCADE) 
+1594561593 	 ::1 	 Add tags to new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`praktikum`.`blog_tag`, CONSTRAINT `blog_tag_ibfk_2` FOREIGN KEY (`blog_id`) REFERENCES `blog` (`blog_id`) ON DELETE CASCADE ON UPDATE CASCADE) 
+1594565082 	 ::1 	 Get all blogs - select - SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'praktikum.t' 
+1594565847 	 ::1 	 Get all blog tags - select - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 
+1594565848 	 ::1 	 Get all blog tags - select - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 
+1594565873 	 ::1 	 Get all blog tags - select - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 
+1594565873 	 ::1 	 Get all blog tags - select - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 
+1599305555 	 ::1 	 Make new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'image' cannot be null 
+1599305577 	 ::1 	 Make new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'image' cannot be null 
+1599305735 	 ::1 	 Make new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'image' cannot be null 
+1599305880 	 ::1 	 Make new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'date' cannot be null 
+1599305896 	 ::1 	 Make new blog - insert - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'date' cannot be null 
